@@ -1,0 +1,33 @@
+{
+  "screenshots": {
+    "width": 1920,
+    "height": 1080
+  },
+  "pages": [
+    {
+      "id": "regular-page",
+      "url": "https://sms.playstation.com/"
+    },
+    {
+      "id": "basic-auth",
+      "url": "http://example.com/basic-auth",
+      "authenticate": true
+    }, {
+      "id": "login-via-form",
+      "login": {
+        "url": "https://example.com/login-form",
+        "login_domain": "select#domain",
+        "login_user": "#username",
+        "login_pass": "#password",
+        "login_button": "#login"
+      },
+      "url": "https://example.com/secure"
+    },
+    {
+      "id": "wait-for-selector",
+      "wait_for": ".wait-for-me",
+      "url": "https://example.com"
+    }
+  ]
+}
+
