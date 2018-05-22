@@ -1,0 +1,23 @@
+
+# environmental
+venv
+.venv
+.env
+
+# package directories
+node_modules
+jspm_packages
+
+# system
+.DS_Store
+
+# application
+*.log
+
+# generated files
+dist/*
+
+# private data
+data/resources.json
+
+!.gitkeep
