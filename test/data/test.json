@@ -1,0 +1,19 @@
+{
+    "screenshots": {
+        "width": 1920,
+        "height": 1080
+    },
+    "verify_download": {
+        "pages": [
+            {
+              "id": "test-sms-homepage",
+              "url": "http://sms.playstation.com/"
+            },
+            {
+              "id": "test-sms-studio",
+              "url": "http://sms.playstation.com/studio/",
+              "wait_for": "#top-section"
+            }
+        ]
+    }
+}
